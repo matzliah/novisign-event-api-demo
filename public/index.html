@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NoviSign Flight Simulator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>✈️ NoviSign Flight Simulator</h1>
+<button id="simulateBtn">Simulate Flight Event</button>
+
+<div class="flight-data" id="flightData">Flight details will appear here...</div>
+
+<script>
+document.getElementById('simulateBtn').addEventListener('click', async () => {
+    const response = await fetch('/trigger', { method: 'POST' });
+    const result = await response.json();
+
+    if(result.success) {
+        const data = result.flightData;
+        document.getElementById('flightData').innerHTML = `
+            <strong>${data.title}</strong><br>
+            Flight Number: ${data.flightNumber}<br>
+            Origin Country: ${data.originCountry}<br>
+            Distance to Screen: ${data.distance}<br>
+            Aircraft Type: ${data.aircraftType}<br>
+            Airline: ${data.airline}
+        `;
+    } else {
+        document.getElementById('flightData').textContent = '❌ Failed to send flight event.';
+    }
+});
+</script>
+
+</body>
+</html>

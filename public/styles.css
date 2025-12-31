@@ -1,0 +1,54 @@
+/* Full-screen layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+}
+
+button {
+    background: #f39c12;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background: #e67e22;
+    transform: scale(1.05);
+}
+
+.flight-data {
+    background: rgba(0,0,0,0.25);
+    padding: 25px 30px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    max-width: 450px;
+    text-align: left;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    word-break: break-word;
+}
+
+/* Make text inside pre block readable if needed */
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
