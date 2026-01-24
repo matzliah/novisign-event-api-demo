@@ -48,7 +48,7 @@ In order to setup Novisign Event API start with loading `flight-event.nvc`
 <details>
 <summary>Step 1: Fix the Missing Account Key (Expected Errors)</summary>
 
-<video src="https://github.com/user-attachments/assets/1b21ab26-67f6-4281-b25c-db49e5405c03" controls="controls"></video>
+https://github.com/user-attachments/assets/aa0782ac-35a4-4087-964c-23963c54bdc9
 
 After importing the creative and opening it in **Edit mode**, you will notice **errors indicators**.
 
@@ -83,7 +83,7 @@ Copy the value labeled **Account Key**.
 <details>
 <summary>Step 2: Set event to screen</summary>
 
-<video src="https://github.com/user-attachments/assets/e961bb96-fcc2-4349-8084-c1476f67cea5" controls="controls"></video>
+https://github.com/user-attachments/assets/f5c1dc29-143b-4f0a-9512-542ac6b6e41d
 
 ### 1. Access the Screens Tab
 From the top navigation menu, click on the **Screens** tab.
@@ -104,7 +104,7 @@ You will be prompted to "Set Up Creative."
 * **Click on the thumbnail** of the creative you want to use.
 * Click the **Set** button in the top right corner.
 
-<video src="https://github.com/user-attachments/assets/d0254baa-3260-43fa-a0e6-a6cc19830507" controls="controls"></video>
+https://github.com/user-attachments/assets/f8b24d79-df59-4e9d-8c14-5a87aeb230af
 
 ### 6. Configure General Event Settings
 In the **General** tab of the Event settings (Step 1 of 3), define how the event is identified and activated:
@@ -142,7 +142,7 @@ See video below:
 ### Create Screen Configuration
 This step tells the player exactly where to pull real-time data from and which event to trigger.
 
-<video src="https://github.com/user-attachments/assets/ff167325-b700-474d-8196-eece3e58b579" controls="controls"></video>
+https://github.com/user-attachments/assets/9b70952a-f6c6-4c23-bf01-ac2ad768e352
 
 1. **Navigate:** Click your **account name** in the top right > **Advanced Settings** > **Configurations**.
 2. **Create:** Click the blue **+ New Configuration** button.
@@ -166,7 +166,7 @@ This step tells the player exactly where to pull real-time data from and which e
 ### Link Configuration to Your Screen
 This step links your API configuration to the screen, ensuring that the player automatically retrieves and applies your custom data settings upon launch.
 
-<video src="https://github.com/user-attachments/assets/a8eed0d6-501c-4fb8-b96e-b610180f4a33" controls="controls"></video>
+https://github.com/user-attachments/assets/4c6c366e-9d03-45ab-bf26-f719d0b5ce7e
 
 1. **Navigate:** Click **Screens** in the top menu.
 2. **Configure:** Find your screen (e.g., `My First Screen`), click the **three dots (menu)** in the bottom right corner of the screen thumbnail, and select **Set Configuration**.
