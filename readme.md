@@ -132,8 +132,6 @@ You will be returned to the main Events dashboard where your new event (e.g., "f
 * Review the summary of the **General**, **Position**, and **Style & Sound** tabs.
 * Click the **Update** button in the top right corner of the screen editor to push the changes to your display.
 
-See video below:
-
 ---
 </details>
 <details>
